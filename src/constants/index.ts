@@ -30,7 +30,7 @@ export const VOTING = {
   SITES: [
     {
       name: 'Minecraft Servers',
-      url: 'https://minecraftservers.org/vote/123456'
+      url: 'https://minecraftservers.org/vote/675885'
     },
     {
       name: 'Planet Minecraft',
