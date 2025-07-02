@@ -323,7 +323,7 @@ const Rules = () => {
             Server Rules
           </Title>
           <Subtitle>
-            Please read and follow these rules to ensure a fun and fair experience for everyone.
+            Vui lòng đọc và tuân thủ các quy tắc này để đảm bảo trải nghiệm vui vẻ và công bằng cho mọi người.
           </Subtitle>
         </Header>
 
