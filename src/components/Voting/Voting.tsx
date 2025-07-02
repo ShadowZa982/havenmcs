@@ -69,10 +69,10 @@ const Voting = () => {
       <Content>
         <Title>
           <FaVoteYea aria-hidden="true" />
-          Vote for YourServer
+          Vote cho HavenMc Network
         </Title>
         <Description>
-          Support our server by voting daily! Each vote helps us grow.
+          Hãy ủng hộ máy chủ của chúng tôi bằng cách bình chọn hàng ngày! Mỗi lượt bình chọn giúp chúng tôi phát triển.
         </Description>
 
         <VotingSitesGrid>
