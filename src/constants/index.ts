@@ -9,9 +9,9 @@ export interface ServerConfig {
 }
 
 export const SERVER: ServerConfig = {
-  IP: 'your-server.com',
+  IP: 'havenmc.fun',
   VERSION: '1.8-1.21',
-  NAME: 'YourServer',
+  NAME: 'HavenMc Network',
 };
 
 // API Configuration
