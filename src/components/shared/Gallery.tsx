@@ -25,42 +25,42 @@ const defaultImages: GalleryItem[] = [
     src: '/images/logo.png',
     alt: 'Server Spawn Area',
     title: 'Spawn Area',
-    description: 'Beautiful spawn area with custom builds'
+    description: 'Khu vực sinh sản tuyệt đẹp với các bản dựng tùy chỉnh'
   },
   {
     id: 2,
     src: '/images/logo.png',
     alt: 'Medieval Castle',
     title: 'Medieval Castle',
-    description: 'Player-built medieval castle'
+    description: 'Lâu đài thời trung cổ do người chơi xây dựng'
   },
   {
     id: 3,
     src: '/images/logo.png',
     alt: 'Modern City',
     title: 'Modern City',
-    description: 'Thriving city built by our community'
+    description: 'Thành phố thịnh vượng được xây dựng bởi cộng đồng của chúng tôi'
   },
   {
     id: 4,
     src: '/images/logo.png',
     alt: 'Beautiful Landscape',
     title: 'Natural Landscape',
-    description: 'Stunning natural terrain generation'
+    description: 'Tạo ra địa hình tự nhiên tuyệt đẹp'
   },
   {
     id: 5,
     src: '/images/logo.png',
     alt: 'Trading Market',
     title: 'Trading Market',
-    description: 'Bustling marketplace for player trading'
+    description: 'Chợ giao dịch cầu thủ nhộn nhịp'
   },
   {
     id: 6,
     src: '/images/logo.png',
     alt: 'PvP Arena',
     title: 'PvP Arena',
-    description: 'Epic battles in our custom arena'
+    description: 'Những trận chiến hoành tráng trong đấu trường tùy chỉnh của chúng tôi'
   }
 ];
 
@@ -256,7 +256,7 @@ const NavigationButton = styled(LightboxButton)`
 const Gallery = ({ 
   images = defaultImages, 
   title = "Server Gallery",
-  description = "Explore our amazing builds and landscapes created by our talented community."
+  description = "Khám phá những công trình và cảnh quan tuyệt đẹp được tạo ra bởi cộng đồng tài năng của chúng tôi."
 }: GalleryProps) => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
