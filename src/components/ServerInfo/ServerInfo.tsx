@@ -176,10 +176,10 @@ const ServerInfo = () => {
     try {
       await navigator.clipboard.writeText(SERVER.IP);
       setCopied(true);
-      showToast('success', 'Server IP copied to clipboard!');
+      showToast('success', 'Đã sao chép IP máy chủ vào bảng tạm!');
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
-      showToast('error', 'Failed to copy server IP');
+      showToast('error', 'Không thể sao chép IP máy chủ');
       console.error('Error copying to clipboard:', err);
     }
   };
@@ -188,11 +188,11 @@ const ServerInfo = () => {
     <Container>
       <Content {...fadeIn}>
         <Description {...fadeIn}>
-          <h2>Welcome to {SERVER.NAME}</h2>
+          <h2>Chào mừng đến với {SERVER.NAME}</h2>
           <p>
-            Experience the world's largest Minecraft server network featuring unique games,
-            competitive tournaments, and a thriving community of millions of players.
-            Join the ultimate Minecraft gaming experience with custom games and endless entertainment.
+            Trải nghiệm mạng lưới máy chủ Minecraft lớn nhất thế giới với các trò chơi độc đáo,
+            các giải đấu cạnh tranh và một cộng đồng thịnh vượng với hàng triệu người chơi.
+            Tham gia trải nghiệm chơi game Minecraft đỉnh cao với các trò chơi tùy chỉnh và giải trí bất tận.
           </p>
           <Features>
             {features.map((feature, index) => (
@@ -209,7 +209,7 @@ const ServerInfo = () => {
           </Features>
         </Description>
         <ServerIP {...scale}>
-          <h3>Join Our Server</h3>
+          <h3>Tham gia máy chủ của chúng tôi</h3>
           <IPBox
             whileHover={{ scale: 1.02 }}
             transition={{ type: 'spring', stiffness: 400 }}
@@ -229,7 +229,7 @@ const ServerInfo = () => {
             transition={{ delay: 0.3 }}
           >
             <FaServer />
-            Compatible with Minecraft Java Edition {SERVER.VERSION}
+            Tương thích với Minecraft Java Edition, Bedrock Edition {SERVER.VERSION}
           </VersionInfo>
         </ServerIP>
       </Content>
