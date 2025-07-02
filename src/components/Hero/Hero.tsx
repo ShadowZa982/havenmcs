@@ -128,9 +128,9 @@ const Hero = () => {
   const handleJoinClick = async () => {
     try {
       await navigator.clipboard.writeText(SERVER.IP);
-      showToast('success', 'Server IP copied to clipboard!');
+      showToast('success', 'Đã sao chép IP máy chủ vào bảng tạm!');
     } catch (err) {
-      showToast('error', 'Failed to copy server IP');
+      showToast('error', 'Không thể sao chép IP máy chủ');
       console.error('Error copying to clipboard:', err);
     }
   };
@@ -169,7 +169,7 @@ const Hero = () => {
         {loading ? (
           <LoadingContainer>
             <LoadingSpinner size="20px" />
-            <LoadingText>Checking server status...</LoadingText>
+            <LoadingText>Đang kiểm tra trạng thái máy chủ...</LoadingText>
           </LoadingContainer>
         ) : error ? (
           <ErrorText>{error}</ErrorText>
