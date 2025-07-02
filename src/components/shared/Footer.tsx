@@ -214,8 +214,8 @@ const Footer = () => {
             {SERVER.NAME}
           </h3>
           <p>
-            Experience the largest Minecraft server network with unique games,
-            active community, and endless entertainment. Join millions of players worldwide!
+            Trải nghiệm mạng máy chủ Minecraft lớn nhất với các trò chơi độc đáo,
+            cộng đồng năng động và giải trí bất tận. Tham gia cùng hàng triệu người chơi trên toàn thế giới!
           </p>
           <SocialLinks>
             {socialLinks.map((link, index) => (
