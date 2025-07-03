@@ -120,7 +120,7 @@ const LoadingScreen = ({ onLoadingComplete }: LoadingScreenProps) => {
         transition={{ duration: 0.8 }}
       >
         <FaCube style={{ marginRight: '1rem' }} />
-        YourServer
+        HavenMc
       </Logo>
 
       <LoadingBlocks>
