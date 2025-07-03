@@ -169,7 +169,7 @@ const BottomBar = styled.div`
 `;
 
 const socialLinks = [
-  { icon: <FaDiscord />, url: 'https://discord.gg/yourserver', label: 'Discord' },
+  { icon: <FaDiscord />, url: 'https://discord.havenmc.fun', label: 'Discord' },
   { icon: <FaTwitter />, url: 'https://twitter.com/yourserver', label: 'Twitter' },
   { icon: <FaYoutube />, url: 'https://youtube.com/yourserver', label: 'YouTube' },
   { icon: <FaGithub />, url: 'https://github.com/yourserver', label: 'GitHub' },
@@ -180,7 +180,7 @@ const quickLinks = [
   { label: 'Gallery', href: '#gallery' },
   { label: 'Vote for Us', href: '#voting' },
   { label: 'Server Info', href: '#server-info' },
-  { label: 'Join Discord', href: 'https://discord.gg/yourserver' },
+  { label: 'Join Discord', href: 'https://discord.havenmc.fun' },
 ];
 
 const Footer = () => {
