@@ -131,7 +131,7 @@ const Navigation = () => {
           whileHover={{ scale: 1.05 }}
           onClick={() => scrollToSection('#home')}
         >
-          HavenMc Network
+          HavenMc
         </Logo>
 
         <NavLinks isOpen={isMenuOpen}>
