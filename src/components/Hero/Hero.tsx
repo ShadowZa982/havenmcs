@@ -149,7 +149,7 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        The world's largest Minecraft server network
+        Một thế giới rộng lớn trong HavenMc network
       </Tagline>
       <JoinButton
         whileHover={{ scale: 1.05 }}
