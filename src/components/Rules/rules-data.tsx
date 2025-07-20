@@ -19,11 +19,11 @@ export const RULES_DATA = [
     title: 'Community Guidelines',
     icon: CommunityIcon,
     content: [
-      'Be respectful to all players',
-      'No hate speech or discrimination',
-      'Keep chat family-friendly',
-      'Help new players when possible',
-      'Use appropriate usernames and skins'
+      'Tôn trọng tất cả người chơi',
+      'Không có ngôn từ kích động thù địch hoặc phân biệt đối xử',
+      'Giữ cho cuộc trò chuyện thân thiện với gia đình',
+      'Hỗ trợ người chơi mới khi có thể',
+      'Sử dụng tên người dùng và giao diện phù hợp'
     ]
   },
   {
@@ -31,11 +31,11 @@ export const RULES_DATA = [
     title: 'Building & Griefing',
     icon: GriefingIcon,
     content: [
-      'No griefing or stealing',
-      'Respect other players\' builds',
-      'Build at least 100 blocks away from others',
-      'Clean up floating trees and creeper holes',
-      'Ask permission before building near others'
+      'Không phá hoại hoặc trộm cắp',
+      'Tôn trọng công trình của người chơi khác',
+      'Xây dựng cách xa người khác ít nhất 100 khối',
+      'Dọn dẹp cây nổi và lỗ hổng do dây leo gây ra',
+      'Xin phép trước khi xây dựng gần người khác'
     ]
   },
   {
@@ -43,11 +43,11 @@ export const RULES_DATA = [
     title: 'Server Rules',
     icon: ServerRulesIcon,
     content: [
-      'No hacked clients or cheats',
-      'No exploiting bugs or glitches',
-      'No AFK machines or farms',
-      'Follow staff instructions immediately',
-      'Report rule violations to moderators'
+      'Không hack máy chủ hoặc gian lận',
+      'Không khai thác lỗi hoặc trục trặc',
+      'Không sử dụng máy hoặc farm AFK',
+      'Làm theo hướng dẫn của nhân viên ngay lập tức',
+      'Báo cáo vi phạm quy tắc cho người kiểm duyệt'
     ]
   },
   {
@@ -55,11 +55,11 @@ export const RULES_DATA = [
     title: 'Trading & Economy',
     icon: TradingIcon,
     content: [
-      'Fair trading practices only',
-      'No scamming other players',
-      'Report unfair trades to staff',
-      'Use designated shopping areas',
-      'Honor all trade agreements'
+      'Chỉ áp dụng các biện pháp giao dịch công bằng',
+      'Không lừa đảo người chơi khác',
+      'Báo cáo các giao dịch không công bằng cho nhân viên',
+      'Sử dụng khu vực mua sắm được chỉ định',
+      'Tôn trọng tất cả các thỏa thuận thương mại'
     ]
   }
 ] satisfies Rule[];
