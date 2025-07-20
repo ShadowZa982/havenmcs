@@ -11,7 +11,7 @@ export interface ServerConfig {
 export const SERVER: ServerConfig = {
   IP: 'havenmc.fun',
   VERSION: '1.8-1.21',
-  NAME: 'HavenMc Network',
+  NAME: 'Nia Eco SMP',
 };
 
 // API Configuration
