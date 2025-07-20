@@ -190,9 +190,9 @@ const ServerInfo = () => {
         <Description {...fadeIn}>
           <h2>Chào mừng đến với {SERVER.NAME}</h2>
           <p>
-            Trải nghiệm mạng lưới máy chủ Minecraft lớn nhất thế giới với các trò chơi độc đáo,
+            Trải nghiệm mạng lưới máy chủ Minecraft lớn nhất thế giới với chế độ Economy,
             các giải đấu cạnh tranh và một cộng đồng thịnh vượng với hàng triệu người chơi.
-            Tham gia trải nghiệm chơi game Minecraft đỉnh cao với các trò chơi tùy chỉnh và giải trí bất tận.
+            Tham gia trải nghiệm chơi game Minecraft đỉnh cao và trở thành BigShark ngay hôm nay.
           </p>
           <Features>
             {features.map((feature, index) => (
