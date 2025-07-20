@@ -61,13 +61,13 @@ declare module '@emotion/react' {
 
 const theme: Theme = {
   colors: {
-    primary: '#6B0197',
-    secondary: '#2D0157',
-    background: '#000000',
+    primary: '#51a305ff',
+    secondary: '#0b5701ff',
+    background: '#000000ff',
     text: '#FFFFFF',
     textSecondary: '#E0E0E0',
-    surface: '#1a1a1a',
-    border: 'rgba(107, 1, 151, 0.3)',
+    surface: '#1a1a1aff',
+    border: 'rgba(1, 151, 46, 0.3)',
   },
   fonts: {
     heading: '"Minecraft", sans-serif',
