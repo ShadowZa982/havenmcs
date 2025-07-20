@@ -63,7 +63,7 @@ const theme: Theme = {
   colors: {
     primary: '#51a305ff',
     secondary: '#0b5701ff',
-    background: '#000000ff',
+    background: '#129406ff',
     text: '#FFFFFF',
     textSecondary: '#E0E0E0',
     surface: '#1a1a1aff',
