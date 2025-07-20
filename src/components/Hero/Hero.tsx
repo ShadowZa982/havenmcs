@@ -159,7 +159,7 @@ const Hero = () => {
         transition={{ duration: 0.8, delay: 0.4 }}
         onClick={handleJoinClick}
       >
-        Join Now
+        Tham gia ngay
       </JoinButton>
       <ServerStatus
         initial={{ opacity: 0 }}
