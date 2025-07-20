@@ -149,7 +149,7 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        Một thế giới rộng lớn trong HavenMc network
+        Một thế giới rộng lớn trong Nia Eco 
       </Tagline>
       <JoinButton
         whileHover={{ scale: 1.05 }}
