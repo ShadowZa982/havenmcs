@@ -9,7 +9,7 @@ export interface ServerConfig {
 }
 
 export const SERVER: ServerConfig = {
-  IP: 'havenmc.fun',
+  IP: 'play.niaeco.online',
   VERSION: '1.8-1.21',
   NAME: 'Nia Eco SMP',
 };
